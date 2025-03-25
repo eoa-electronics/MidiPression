@@ -14,7 +14,7 @@ The pinout is free to choose, and can be set up in the pins.h configuration file
 ## Firmware
 The firmware is built in PlatformIO. Everything should be ready to use. Just input your pin-configuration is the `Firmware/include/pins.h` file, and change settings in `Firmware/include/configuration.h` to your liking.  
 >**IMPORTANT:**  
->To build the firmware open the `Firmware`folder as the >project-root! Otherwise PlatformIO may not build successfully!  
+To build the firmware open the `Firmware`folder as the >project-root! Otherwise PlatformIO may not build successfully!  
 
 The firmware uses `MIDIUSB`as a dependency. This will be downloaded automatically by PlatformIO, so make sure you are connected to the Internet when building.
 
